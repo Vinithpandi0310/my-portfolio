@@ -404,8 +404,9 @@ a {
 
 /* Contact */
 .contact-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     gap: 50px;
 }
 
