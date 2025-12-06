@@ -43,7 +43,8 @@
             <h2 class="subtitle">AI & Data Science Enthusiast</h2>
             <div class="cta-buttons">
                 <a href="#projects" class="btn primary-btn">View Work</a>
-                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                <a href="VINITH_RESUME2.docx" class="btn secondary-btn" download><i class="fas fa-download"></i>
+                    Download CV</a>
             </div>
         </div>
         <div class="hero-visual">
@@ -259,10 +260,16 @@
                     <p><a href="https://www.linkedin.com/in/vinith-pandi" target="_blank" class="social-link">LinkedIn
                             Profile</a></p>
                 </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Input Name Protocol" required>
-                    <input type="email" placeholder="Input Email Address" required>
-                    <textarea placeholder="Transmit Message..." rows="5" required></textarea>
+                <!-- 
+                     NOTE TO USER: Replace "YOUR_FORM_ID" in the action URL below with your actual Formspree Form ID.
+                     1. Go to https://formspree.io/
+                     2. Create a free account and a new form
+                     3. Copy the Form ID (e.g., f/xbyzrqp) and paste it here
+                -->
+                <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input type="text" name="name" placeholder="Input Name Protocol" required>
+                    <input type="email" name="email" placeholder="Input Email Address" required>
+                    <textarea name="message" placeholder="Transmit Message..." rows="5" required></textarea>
                     <button type="submit" class="btn primary-btn">Send Transmission</button>
                 </form>
             </div>
